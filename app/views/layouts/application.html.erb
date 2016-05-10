@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ItsMe</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="header">
+	<span>A Journey</span>
+</div>
+
+<div id="page">
+	<div class="text-center", id="sidebar">
+	 	<%= link_to "Home", root_url %><hr>
+	 	<%= link_to "About", '#'  %><hr>
+	 	<%= link_to "Contact", '#' %><hr>
+	</div>
+	<div id="main_body">
+		<%= yield %>
+	</div>	
+</div>
+
+
+
+</body>
+</html>

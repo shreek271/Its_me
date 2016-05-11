@@ -6,6 +6,15 @@ Rails.application.routes.draw do
   get 'birgunj' => 'main_pages#birgunj'
   get 'pokhara' => 'main_pages#pokhara'
   get 'kathmandu' => 'main_pages#kathmandu'
+  get 'patna'     => 'main_pages#patna'
+  get 'bhubaneswar'     => 'main_pages#bhubaneswar'
+  get 'kolkata'     => 'main_pages#kolkata'
+  get 'bangalore'     => 'main_pages#bangalore'
+  get 'kochi'     => 'main_pages#kochi'
+  get 'pune'      =>  'main_pages#pune'
+  get 'hyderabad'     => 'main_pages#hyderabad'
+  get 'about'     => 'main_pages#about'
+  get 'contact' => 'main_pages#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
